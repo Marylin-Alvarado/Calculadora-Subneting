@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "flutter run web",
+      "type": "shell",
+      "command": "flutter",
+      "args": ["run", "-d", "chrome"],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "flutter run android",
+      "type": "shell",
+      "command": "flutter",
+      "args": ["run", "-d", "android"],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
